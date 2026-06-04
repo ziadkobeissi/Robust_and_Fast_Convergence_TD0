@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated experiment outputs (large binary files)
+experiments/data/*.npz
+experiments/figures/*.png
+experiments/figures/*.pdf
+experiments/td0/
+experiments/pctd0/
+
+# Root-level generated images
+/*.png
+/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.code-workspace
+*.swp
+*~
+.vscode/
+
+# Archives
+*.zip
+*.tar.gz
+
+# AI assistant configuration
+CLAUDE.md
+.claude/
+
+# Backup / scratch directories
+src_save_before_minibatch/
+github/
